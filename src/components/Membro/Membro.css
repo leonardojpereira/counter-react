@@ -1,0 +1,62 @@
+.counter {
+    text-align: center;
+    background-color: rgb(71, 71, 71);
+    min-height: 350px;
+    min-width: 250px;
+    padding: 0 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 12px 12px 12px rgb(29, 29, 29);
+}
+
+.icon {
+    font-size: 52px;
+}
+
+.counter h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 36px;
+    color: #FFF;
+    margin-top: 22px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.container-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 0 12px;
+    font-size: 36px;
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+span {
+    font-size: 40px;
+    color: #FFF;
+}
+
+.red {
+    background-color: red; 
+}
+
+.green {
+    background-color: green;
+}
